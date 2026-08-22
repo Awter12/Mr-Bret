@@ -1260,6 +1260,40 @@
 
 /* responsive code for mobile */
 @media only screen and (max-width: 576px) {
+    .about {
+        padding: 40px 0 40px;
+    }
+
+    .about-image-col {
+        margin: 0 auto;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-bottom: 0;
+    }
+
+    .about-text-col {
+        margin-top: -160px;
+    }
+
+    .services {
+        padding-top: 0;
+    }
+
+    .credly-badge,
+    .about-image-col > iframe[src*="embedded_badge"] {
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 0;
+        line-height: 0;
+    }
+
+    .about-image-col iframe[src*="embedded_badge"] {
+        width: 100% !important;
+        height: min(768px, calc((100vw - 24px) * 1.3714286)) !important;
+        display: block;
+        margin: 0 auto;
+    }
+
     .home-banner {
         padding-bottom: 30px;
     }
